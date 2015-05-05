@@ -1,0 +1,110 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+img{
+	border: none;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.box-center{
+	width: 960px;
+	margin: 0px auto;
+}
+
+/*Header*/
+#header{
+	background: #fd4b7b;
+	min-height: 50px;
+}
+
+.logo{
+	float: left;
+}
+
+.main-menu{
+	padding-top: 10px;
+	float: right;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 0px;
+}
+
+.menu ul li{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 14px;
+
+}
+
+.menu ul li a{
+	display: block;
+	padding: 0px 20px;
+	text-transform: uppercase;
+	color: #fefffd;
+	text-decoration: none;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.menu ul li:hover a, .menu ul li a:hover{
+	color: #ccc;
+}
+
+.btn-toggle{
+	display: none;
+}
+
+.bag{
+	float: right;
+	margin-top: 5px;
+}
+
+/*Banner*/
+.banner-container{
+
+}
+
+/*More menu*/
+.more-menu{
+	background: #fd4b7b;
+}
+
+/*Footer*/
+
+/*Coppyright*/
+.copyright{
+	background: #f84473;
+	line-height: 40px;
+	border-top: 1px solid #fd527f;
+	color: #fed0db;
+}
+
+.copyright p{
+	float: left;
+	margin: 0px;
+}
+
+.made-by{
+	float: right;
+	width: 300px;
+}
+
+.made-by a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.made-by a:hover{
+	opacity: 0.6;
+}
