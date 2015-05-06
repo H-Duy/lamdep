@@ -69,7 +69,133 @@ img{
 	float: right;
 	margin-top: 5px;
 }
+/* ASIDE */
+.sidebar{
+	float: right;
+	margin-top: 15px;
+	width: 28.75%;
+}
+.a-search{
+	position: relative;
+	margin-bottom: 17px;
+}
+.a-search input[type="text"]{
+	color: #3e3c3b;
+	font-size: 15.67px;
+	line-height: 37px;
+	background-color: #efeeee;
+	border: 1px solid #d6d3d3;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 15px;
+}
+.a-search input[type="button"]{
+	position: absolute;
+	background: url(images/icon-search.png) no-repeat center;
+	height: 37px;
+	line-height: 37px;
+	border: none;
+	right: 12px;
+	width: 21px;
+}
+.a-about-us{
+	background-color: #26c648;
+	padding: 15px 19px 10px;
+	margin-bottom: 20px;
+}
+.a-about-us h3{
+	text-align: center;
+	color: #fff;
+	font-size: 19px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 0px 15px;
+}
+ul.about-us-list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.about-us-list li a{
+	font-size: 17px;
+	color: #fff;
+	text-decoration: none;
+}
+ul.about-us-list li:hover a{
+	color: #d3d3d3;
+}
 
+/* NEWPOST */
+.new-post, .impress-post{
+	border-bottom: 1px solid #d3d3d3;
+}
+h3.title-new-post {
+	margin: 0px 0px 10px;
+}
+h3.title-new-post a{
+	color: #ff245d;
+	font-size: 19px;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-decoration:  none;
+}
+.new-slider ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.new-slider ul li{
+	margin-bottom: 16px;
+}
+img.img-new-post{
+	float: left;
+	margin-right: 15px;
+}
+.intro-new p{
+	margin: 0;
+}
+.intro-new a{
+	font-size: 17px;
+	color: #777777;
+	text-decoration: none;
+}
+
+/* IMPRESS POST */
+
+.impress-post{
+	margin-top: 33px;
+}
+
+/* BXSLIDER */
+
+.bx-wrapper .bx-viewport{
+	box-shadow: none;
+}
+.bx-wrapper .bx-prev,.bx-wrapper .bx-next{
+	display: none;
+}
+ul.new-slider, ul.impress-slider{
+	margin: 0;
+	padding: 0;
+}
+.bx-wrapper .bx-pager{
+	padding-top: 10px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a{
+	background-color: #ffd0d2;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{
+	background-color: #ffadb0;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom: -25px;
+}
+.bx-wrapper .bx-pager{
+	padding-top: 30px;
+}
+.bx-wrapper{
+	margin: 0px auto 44px;
+}
 /*Banner*/
 .banner-container{
 
