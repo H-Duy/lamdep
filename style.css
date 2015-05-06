@@ -81,7 +81,26 @@ img{
 }
 
 /*Footer*/
+#footer{
+	background: #fd4b7a;
+	padding: 25px 0px;
+	color: #fff;
+}
 
+.footer-box{
+	float: left;
+	padding: 0px 10px;
+}
+
+.title-footer{
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.description{
+	width: 190px;
+	margin-right: 70px;
+}
 /*Coppyright*/
 .copyright{
 	background: #f84473;
