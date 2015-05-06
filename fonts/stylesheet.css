@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'sfu_grenoblemedium';
+    src: url('sfugrenoblemedium.eot');
+    src: url('sfugrenoblemedium.eot?#iefix') format('embedded-opentype'),
+         url('sfugrenoblemedium.woff2') format('woff2'),
+         url('sfugrenoblemedium.woff') format('woff'),
+         url('sfugrenoblemedium.ttf') format('truetype'),
+         url('sfugrenoblemedium.svg#sfu_grenoblemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
