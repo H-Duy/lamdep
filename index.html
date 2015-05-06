@@ -18,6 +18,13 @@
 	<script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<section id="wrapper">
 		<header id="header">
 			<div class="box-center">
@@ -69,11 +76,19 @@
 					</div>
 					<div class="a-about-us">
 						<h3>Tự bạch về Hà</h3>
+<<<<<<< HEAD
 						<ul class="about-us-list">
 							<li><a href="#">- Hà quê ở đâu</a></li>
 							<li><a href="#">- Hà bao nhiêu tuổi?</a></li>
 							<li><a href="#">- Tại sao Hà lập website này?</a></li>
 							<li><a href="#">- Hà có phải là bác sĩ hay chuyên viên làm đẹp không?</a></li>
+=======
+						<ul class="about-us-list">
+							<li><a href="#">Hà quê ở đâu</a></li>
+							<li><a href="#">Hà bao nhiêu tuổi?</a></li>
+							<li><a href="#">Tại sao Hà lập website này?</a></li>
+							<li><a href="#">Hà có phải là bác sĩ hay chuyên viên làm đẹp không?</a></li>
+>>>>>>> 3c25fa1531b39738adca0067ac1f6e012795dd3c
 						</ul>
 					</div>
 					<div class="new-post">
@@ -324,7 +339,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="question">
+					<div class="a-question">
 						<h3 class="title-new-post">CÂU HỎI THƯỜNG GẶP</h3>
 						<ol class="list-question">
 							<li><a href="#">Dầu dừa của Hà có uống được không?</a></li>
@@ -333,6 +348,36 @@
 							<li><a href="#">Tóc nhờn có dùng dầu dừa được không?</a></li>
 							<li><a href="#">Có cần bảo quản dầu dừa trong tủ lạnh không?</a></li>
 						</ol>
+					</div>
+					<div class="a-product">
+						<ul>
+							<li>
+								<img src="images/img-lips.jpg" alt="" />
+								<p class="lips-intro">Son dưỡng thiên nhiên 100%</p>
+							</li>
+							<li>
+								<img src="images/img-oil.jpg" alt="" />
+								<p class="oil-intro">Dầu dừa nguyên chất 100%</p>
+							</li>
+						</ul>
+					</div>
+					<div class="a-support">
+						<h3>HỖ TRỢ TRỰC TUYẾN</h3>
+						<div class="a-hotline">
+							<a href="#"><img src="images/icon-yahoo.png" alt="" /></a>
+							<a href="#"><img src="images/icon-skype.png" alt="" /></a>
+							<span>Hotline: 01234 839998</span>
+						</div>
+					</div>
+					<div class="a-guide">
+						<h3 class="title-new-post">HƯỚNG DẪN</h3>
+						<p><a href="#">Hướng dẫn đặt hàng</a></p>
+						<p><a href="#">Hướng dẫn thanh toán</a></p>
+					</div>
+					<div class="facebook-like">
+						<h3 class="title-fb-add">kết bạn với hà trên facebook</h3>
+						
+						<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false"></div>
 					</div>
 				</aside>
 				<div class="clearfix"></div>
