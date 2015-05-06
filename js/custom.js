@@ -14,6 +14,13 @@ $(document).ready(function(){
 		caption: true,
 		mode: 'fade'
 	});
+
+	$('a.btn-backtop').click(function(even){
+		even.preventDefault();
+		$('html').animate({
+			scrollTop: 0
+		},1000);
+	});
  });
  
  jQuery(window).resize(function(){
