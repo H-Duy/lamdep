@@ -348,6 +348,16 @@ ul.new-slider, ul.impress-slider{
 	font-size: 17px;
 }
 
+#footer .box-center{
+	position: relative;
+}
+
+a.btn-backtop{
+	position: absolute;
+	right: 0px;
+	top: -25px;
+}
+
 .footer-box{
 	float: left;
 	padding: 0px 10px;
@@ -356,12 +366,9 @@ ul.new-slider, ul.impress-slider{
 .title-footer{
 	text-transform: uppercase;
 	font-weight: 600;
-<<<<<<< HEAD
 	font-size: 17px;
 	margin: 0px;
-=======
 	font-style: normal;
->>>>>>> 3c25fa1531b39738adca0067ac1f6e012795dd3c
 }
 
 .description{
@@ -422,7 +429,7 @@ ul.new-slider, ul.impress-slider{
 	line-height: 40px;
 	border-top: 1px solid #fd527f;
 	color: #fed0db;
-	margin-top: 25px;
+	margin-top: 10px;
 	font-size: 14px;
 }
 
