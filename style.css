@@ -132,7 +132,7 @@ ul.about-us-list li:hover a{
 h3.title-new-post {
 	margin: 0px 0px 10px;
 }
-h3.title-new-post a{
+h3.title-new-post, h3.title-new-post a{
 	color: #ff245d;
 	font-size: 19px;
 	text-transform: uppercase;
@@ -164,6 +164,19 @@ img.img-new-post{
 
 .impress-post{
 	margin-top: 33px;
+}
+/* QUESTION */
+ol.list-question{
+	margin: 0;
+	padding-left: 18px;
+	color: #fd4b7a;
+	font-size: 17px;
+	
+}
+ol.list-question li a{
+	color: #fd4b7a;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 /* BXSLIDER */
