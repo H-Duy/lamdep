@@ -74,7 +74,6 @@ img{
 	width: 71.25%;
 	float: left;
 	box-sizing: border-box;
-	margin-top: 40px;
 }
 .disclaimer-copyright{
 	padding-right: 33px;
@@ -88,7 +87,7 @@ h1.title{
 	font-family: 'sfu_grenoblemedium';
 	font-weight: normal;
 	text-align: center;
-	margin: 0px;
+	margin: 40px 0px 30px;
 }
 .disclaimer h5, .copy-right h5{
 	color: #fd4b7a;
