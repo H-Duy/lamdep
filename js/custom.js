@@ -4,6 +4,12 @@ $(document).ready(function(){
 			$('ul.menu').slideToggle('slow');
 		}
 	});
+	$('.article-slide').bxSlider({
+		controls: true
+	});
+	$('.comment-slide').bxSlider({
+		controls: true
+	});
 	$('.slider .new-slider').bxSlider({
 		auto: true,
 		caption: true,
