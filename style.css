@@ -69,6 +69,226 @@ img{
 	float: right;
 	margin-top: 5px;
 }
+/* disclaimer-copyright */
+.main-content{
+	width: 71.25%;
+	float: left;
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+.disclaimer-copyright{
+	padding-right: 33px;
+}
+.disclaimer-copyright h1.title{
+	margin-bottom: 70px;
+}
+h1.title{
+	font-size: 34px;
+	color: #fd4b7a;
+	font-family: 'sfu_grenoblemedium';
+	font-weight: normal;
+	text-align: center;
+	margin: 0px;
+}
+.disclaimer h5, .copy-right h5{
+	color: #fd4b7a;
+	font-size: 17px;
+	font-weight: normal;
+	margin: 0 0 20px;
+}
+.disclaimer p, .copy-right p{
+	color: #777777;
+	font-size: 17px;
+	line-height: 20px;
+	margin: 0 0 20px;
+	text-align: justify;
+}
+.disclaimer p a, .copy-right p a{
+	font-size: 17px;
+	text-decoration: none;
+	color: #0000ee;
+}
+/* HASHOP */
+.hashop{
+	padding-right: 24px;
+}
+.hashop h1.title{
+	margin-bottom: 20px;
+}
+.intro-hashop{
+	background-color: #fd4b7a;
+	position: relative;
+	text-align: center;
+	padding: 20px 0px;
+	border-radius: 30px;
+}
+.intro-hashop img{
+	position: absolute;
+	bottom: -32px;
+	left: 46%;
+	width: 9%;
+}
+.intro-hashop p{
+	margin: 0;
+	color: #fff;
+	font-size: 19px;
+}
+.intro-hashop p.intro2{
+	margin: 15px 110px 0px;
+	font-weight: 600;
+}
+.products{
+	margin-top: 90px;
+}
+.products ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.products ul li{
+	padding: 10px 8px;
+	border: 2px dashed #fd4b7a;
+	margin-bottom: 50px;
+}
+.product{
+	width: 75.5%;
+	float: left;
+	padding: 10px 0px 5px;
+	border-right: 2px dashed #fd4b7a;
+}
+.product img{
+	float: left;
+	margin-right: 15px;
+}
+.product-intro{
+	float: left;
+}
+.product-intro p{
+	font-size: 17px;
+	color: #fd4b7a;
+	margin: 0px 0px 25px;
+}
+.product-intro p span{
+	font-weight: 700;
+}
+a.show-detail-prod{
+	display: block;
+	float: right;
+	color: #fff;
+	font-size: 25px;
+	font-weight: 600;
+	font-style: normal;
+	background-color: #26c648;
+	text-decoration: none;
+	text-transform: uppercase;
+	line-height: 60px;
+	padding: 0 23px;
+	margin-top: 47px;
+	border-radius: 5px;
+}
+/* Sharebox, feelingbox */
+.sharebox, .feelingbox{
+	padding-right: 24px;
+}
+.extra-title .extra-ct{
+	width: 99.999%;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+}
+.extra-title span.empty{
+	height: 170px;
+	line-height: 170px;
+	width: 0.001%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.extra-title p.noted1{
+	font-size: 17px;
+	color: #fd4b7a;
+	text-align: center;
+	padding: 0 45px;
+	margin: 0px;
+}
+.feelingbox p.noted1{
+	font-weight: 600;
+}
+.extra-title p.noted1 span, .form-share p span{
+	text-transform: uppercase;
+}
+.sharebox p.noted2,.sharebox p.noted2 a{
+	font-size: 17px;
+	color: #26c648;
+	font-style: italic;
+	margin: 25px 0px 0px;
+	text-decoration: none;
+}
+.extra-title{
+border-bottom: 2px dashed #fd4b7a;
+}
+.feelingbox .form-share{
+	margin-top: 25px;
+}
+.form-share{
+	margin-top: 60px;
+	margin-bottom: 120px;
+	border: 1px solid #eeeded;
+	padding: 30px 36px 50px;
+}
+.feelingbox .form-share{
+	padding-top: 75px;
+}
+.form-share p.first-p{
+	font-size: 17px;
+	color: #fd4b7a;
+	text-align: center;
+	margin: 0px 0px 50px;
+	font-weight: normal;
+}
+.form-share p{
+	font-size: 17px; 
+	color: #777777;
+	margin: 35px 0 25px;
+	font-weight: 600;
+}
+.form-share textarea{
+	width: 100%;
+	border: 1px solid #bbb4b4;
+	resize: none;
+}
+.form-share textarea[name="size1"]{
+	height: 60px;
+}
+.form-share textarea[name="size2"]{
+	height: 260px;
+}
+.form-share textarea[name="size3"]{
+	height: 100px;
+}
+.form-share textarea[name="size4"]{
+	height: 130px;
+}
+.form-share .post-btn{
+	text-align: center;
+	margin-top: 50px;
+}
+.form-share input[type="button"]{
+	font-size: 25px;
+	padding: 0 41px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 60px;
+	background-color: #26c648;
+	border: none;
+	border-radius: 5px;
+}
+.important-id span{
+	color: #fd4b7a;
+	margin-right: 5px;
+}
+
 /* ASIDE */
 .sidebar{
 	float: right;
@@ -156,6 +376,7 @@ img.img-new-post{
 }
 .intro-new p{
 	margin: 0;
+	line-height: 17px;
 }
 .intro-new a{
 	font-size: 17px;
