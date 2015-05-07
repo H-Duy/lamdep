@@ -1,0 +1,9 @@
+diff a/style.css b/style.css	(rejected hunks)
+@@ -376,6 +376,7 @@
+ }
+ .intro-new p{
+ 	margin: 0;
++	line-height: 17px;
+ }
+ .intro-new a{
+ 	font-size: 17px;
