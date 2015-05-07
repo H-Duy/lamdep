@@ -124,7 +124,7 @@ h1.title{
 }
 .intro-hashop img{
 	position: absolute;
-	bottom: -32px;
+	top: 100%;
 	left: 46%;
 	width: 9%;
 }
