@@ -49,7 +49,7 @@ img{
 
 .menu ul li a{
 	display: block;
-	padding: 0px 20px;
+	padding: 0px 19px;
 	text-transform: uppercase;
 	color: #fefffd;
 	text-decoration: none;
@@ -182,7 +182,7 @@ a.show-detail-prod{
 	text-decoration: none;
 	text-transform: uppercase;
 	line-height: 60px;
-	padding: 0 23px;
+	padding: 0 17px;
 	margin-top: 47px;
 	border-radius: 5px;
 }
@@ -588,7 +588,7 @@ a.btn-backtop{
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 17px;
-	margin: 0px;
+	margin: 0px 0px 10px;
 	font-style: normal;
 }
 
