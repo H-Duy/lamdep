@@ -42,6 +42,8 @@ img{
 
 .menu ul li{
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	font-size: 14px;
 
@@ -196,6 +198,8 @@ a.show-detail-prod{
 	line-height: 170px;
 	width: 0.001%;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: middle;
 }
 .extra-title p.noted1{
@@ -284,6 +288,7 @@ border-bottom: 2px dashed #fd4b7a;
 	background-color: #26c648;
 	border: none;
 	border-radius: 5px;
+	cursor: pointer;
 }
 span.important-id{
 	color: #fd4b7a;
@@ -308,6 +313,12 @@ span.important-id{
 .semibolder{
 	font-weight: 600;
 }
+.paypage{
+	padding-top: 80px;
+}
+.paypage > p{
+	text-align: justify;
+}
 .paypage > h3.color1{
 	font-size: 22px;
 	font-weight: normal;
@@ -323,11 +334,18 @@ span.important-id{
 	line-height: 45px;
 	margin: 0;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
+}
+.form-detail select{
+	padding-left: 10px;
+	height: 45px;
+	width: 58.5%;
 }
 .form-detail input, .form-detail select, .form-detail textarea{
 	float: right;
 }
-.form-detail input, .form-detail select{
+.form-detail input{
 	height: 45px;
 	width: 58%;
 }
@@ -470,6 +488,8 @@ p.i-note{
 .order-product .product-intro a.show-detail-prod{
 	float: none;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	margin-top: 34px;
 	line-height: 50px;
 	padding: 0px 21px;
@@ -546,6 +566,8 @@ img.img-right{
 	float: none;
 	padding: 0 45px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	margin-top: 30px;
 	font-weight: 600;
 }
@@ -646,9 +668,15 @@ p.feedback-p{
 }
 .tab-detail table{
 	width: 100%;
-	text-align: center;
 	border: 1px solid #d6d3d3;
 	border-spacing: 0;
+}
+table th{
+	text-align: center;
+}
+table td{
+	text-align: justify;
+	padding: 0 12px;
 }
 table th.col1{
 	width: 408px;
@@ -682,6 +710,9 @@ table th:first-child{
 .answer{
 	font-size: 17px;
 }
+.answer > p.color2{
+	text-align: justify;
+}
 .answer p.question{
 	margin-top: 0;
 }
@@ -700,6 +731,8 @@ table th:first-child{
 	width: 24.5%;
 	margin-right: 0.66%;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	text-align: center;
 	font-size: 17px;
 	line-height: 35px;
@@ -727,6 +760,30 @@ table th:first-child{
 	width: 28.75%;
 	padding-bottom: 30px;
 }
+.sidebar ul.tabs-sidebar{
+	margin: 150px 0 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+.sidebar ul.tabs-sidebar li{
+	max-width: 160px;
+	height: 45px;
+	line-height: 45px;
+	background-color: #26c648;
+	margin-bottom: 15px;
+}
+.sidebar ul.tabs-sidebar li.active{
+	background-color: #fd4b7a;
+}
+.sidebar ul.tabs-sidebar li a{
+	font-size: 19px;
+	font-weight: 700;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+} 
 .a-search{
 	position: relative;
 	margin-bottom: 17px;
@@ -734,6 +791,7 @@ table th:first-child{
 .a-search input[type="text"]{
 	color: #3e3c3b;
 	font-size: 15.67px;
+	height: 37px;
 	line-height: 37px;
 	background-color: #efeeee;
 	border: 1px solid #d6d3d3;
@@ -747,6 +805,7 @@ table th:first-child{
 	height: 37px;
 	line-height: 37px;
 	border: none;
+	top: 0;
 	right: 12px;
 	width: 21px;
 }
@@ -831,7 +890,7 @@ ol.list-question{
 	padding: 0;
 	color: #fd4b7a;
 	font-size: 17px;
-	list-style: inside number;
+	list-style-position: inside;
 }
 ol.list-question li a{
 	color: #fd4b7a;
@@ -879,6 +938,9 @@ ol.list-question li a{
 }
 
 /* A-SUPORT */
+.a-support{
+	margin-top: 45px;
+}
 .a-support h3{
 	background: url(images/icon-suport.png) no-repeat;
 	font-size: 19px;
@@ -1166,6 +1228,8 @@ a.btn-backtop{
 	padding: 20px 45px;
 	margin: 0;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	font-weight: 300;
 	font-style: italic;
 	line-height: 22px;
@@ -1175,6 +1239,8 @@ a.btn-backtop{
 	width: 35px;
 	height: 27px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	position: absolute;
 	top: 10px;
 	left: 5px;
@@ -1184,6 +1250,8 @@ a.btn-backtop{
 	width: 35px;
 	height: 27px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	margin-left: 10px;
 	margin-top: 10px;
@@ -1245,6 +1313,8 @@ a.btn-backtop{
 	line-height: 60px;
 	padding: 0 25px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	margin-top: 25px;
 	border-radius: 5px;
@@ -1371,6 +1441,8 @@ a.btn-backtop{
 	width: 12px;
 	height: 12px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	position: absolute;
 	top: 7px;
@@ -1380,6 +1452,8 @@ a.btn-backtop{
 	color: #ff245d;
 	font-size: 17px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	line-height: 22px;
 	padding: 12px 10px 12px 24px;
 	margin: 0;
@@ -1389,6 +1463,8 @@ a.btn-backtop{
 	width: 12px;
 	height: 12px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	margin-top: 10px;
 	margin-left: 5px;
@@ -1427,6 +1503,8 @@ a.btn-backtop{
 }
 .btn-feel,.btn-experiences{
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	text-align: center;
 	background: #26c648;
@@ -1521,6 +1599,8 @@ a.btn-backtop{
 }
 .main-info-categories-product span{
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	color: #a5a5a5;
 	font-size: 14px;
 	margin: 20px 0 10px;
@@ -1587,6 +1667,8 @@ a.btn-backtop{
 }
 ul.cd-pagination li{
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	margin: 0 8px;
 }
@@ -1594,6 +1676,8 @@ ul.cd-pagination .button a{
 	position: relative;
 	text-indent: -999px;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	vertical-align: top;
 	text-align: left;
 	top: 5px;
@@ -1609,6 +1693,8 @@ ul.cd-pagination .button:first-of-type a::before,ul.cd-pagination .button:last-o
   content: '';
   position: absolute;
   display: inline-block;
+  zoom: 1;
+	*display: inline;
   width: 21px;
   height: 24px;
   top: 50%;
