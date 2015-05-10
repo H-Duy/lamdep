@@ -160,9 +160,11 @@ h1.title{
 .product img{
 	float: left;
 	margin-right: 15px;
+	max-width: 45.5%;
 }
 .product-intro{
 	float: left;
+	max-width: 51.3%;
 }
 .product-intro p.color1{
 	font-size: 17px;
@@ -719,7 +721,7 @@ table th:first-child{
 .tabs{
 	margin-top: 70px;
 }
-.answer .tabs ul{
+.answer .tabs ul.tab-title{
 	margin: 0 0 38px;
 	padding: 20px 0 10px;
 	list-style: none;
@@ -727,7 +729,7 @@ table th:first-child{
 	border-top: 1px solid #e4e3e3;
 	border-bottom: 1px solid #e4e3e3;
 }
-.answer .tabs ul li{
+.answer .tabs ul.tab-title li{
 	width: 24.5%;
 	margin-right: 0.66%;
 	display: inline-block;
