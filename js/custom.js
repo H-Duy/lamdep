@@ -27,6 +27,7 @@ $(document).ready(function(){
 			scrollTop: 0
 		},1000);
 	});
+	
  });
  
  jQuery(window).resize(function(){
