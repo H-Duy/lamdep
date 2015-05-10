@@ -59,7 +59,11 @@ $(document).ready(function(){
 			scrollTop: 0
 		},1000);
 	});
+<<<<<<< HEAD
 	$('.tabs').tabs();
+=======
+	
+>>>>>>> b6d15a87bf66b6449e94f660472a87686f945da7
  });
  
  jQuery(window).resize(function(){
