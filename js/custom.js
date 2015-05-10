@@ -1,4 +1,16 @@
 $(document).ready(function(){
+	$('.show-more > a').click(function(event){
+		event.preventDefault();
+		if($('.hide-ct').hasClass('stt-show')){
+			$('.hide-ct').slideUp('slow');
+			$('.hide-ct').removeClass('stt-show');
+		}
+		else{
+			$('.hide-ct').slideDown('slow');
+			$('.hide-ct').addClass('stt-show');
+			$(this).addClass('stt-show');
+		}
+	});
 	$('.btn-toggle').click(function(){
 		if($(window).width() < 768){
 			$('ul.menu').slideToggle('slow');
