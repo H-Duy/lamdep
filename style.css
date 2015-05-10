@@ -1292,7 +1292,8 @@ a.btn-backtop{
 .bottom-infomation-beauty ol{
 	margin: 0;
 	padding: 0;
-	list-style: inside none decimal;
+	list-style-type: decimal;
+	list-style-position: inside;
 	margin-top: 35px;
 
 }
@@ -2218,8 +2219,11 @@ ul.cd-pagination .text a{
 }
 .catalog ul{
 	margin: 0;
+	margin-left: 20px;
+	margin-top: 25px;
 	padding: 0;
-	list-style: inside none upper-alpha;
+	list-style-type: upper-alpha;
+	list-style-position: inside;
 	color: #787878;
 }
 .catalog ul li{
@@ -2267,7 +2271,8 @@ ul.cd-pagination .text a{
 .catalog-coconut ul{
 	margin: 0;
 	padding: 0;
-	list-style: inside none decimal;
+	list-style-type:decimal;
+	list-style-position: inside;
 	color: #787878;
 }
 .catalog-coconut ul li{
